@@ -1,6 +1,6 @@
 import "./App.css";
 import { Routes, Route, Link } from "react-router-dom";
-import Europa from "./Europa";
+import Europa from "./continents/Europa";
 
 function App() {
   return (
