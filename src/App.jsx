@@ -27,7 +27,9 @@ function Home() {
       <Link className="Link" to="/Antarctica">
       Antarctica
       </Link>
-      
+      <Link className="Link" to="/Asia">
+      Asia
+      </Link>
     </div>
   );
 }
