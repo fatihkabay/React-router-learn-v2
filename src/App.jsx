@@ -1,12 +1,12 @@
 import "./App.css";
 import { Routes, Route, Link } from "react-router-dom";
 import Europa from "./continents/Europa";
-import Africa from "./continents/Africa"
-import Antarctica from "./continents/Antarctica"
-import Asia from "./continents/Asia"
-import NorthAmerica from "./continents/NorthAmerica"
+import Africa from "./continents/Africa";
+import Antarctica from "./continents/Antarctica";
+import Asia from "./continents/Asia";
+import NorthAmerica from "./continents/NorthAmerica";
 import SouthAmerica from "./continents/SouthAmerica";
-import Australia from "./continents/Australia"
+import Australia from "./continents/Australia";
 
 function App() {
   return (
@@ -37,16 +37,19 @@ function Home() {
         Africa
       </Link>
       <Link className="Link" to="/Antarctica">
-      Antarctica
+        Antarctica
       </Link>
       <Link className="Link" to="/Asia">
-      Asia
+        Asia
       </Link>
       <Link className="Link" to="NorthAmerica">
-      NorthAmerica
+        NorthAmerica
       </Link>
       <Link className="Link" to="SouthAmerica">
-      SouthAmerica
+        SouthAmerica
+      </Link>
+      <Link path="Australia" to="/Australia">
+        Australia
       </Link>
     </div>
   );
