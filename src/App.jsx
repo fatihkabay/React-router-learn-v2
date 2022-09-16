@@ -30,6 +30,9 @@ function Home() {
       <Link className="Link" to="/Asia">
       Asia
       </Link>
+      <Link className="Link" to="NorthAmerica">
+      NorthAmerica
+      </Link>
     </div>
   );
 }
