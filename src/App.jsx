@@ -1,6 +1,7 @@
 import "./App.css";
 import { Routes, Route, Link } from "react-router-dom";
 import Europa from "./continents/Europa";
+import SouthAmerica from "./continents/SouthAmerica";
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function Home() {
       </Link>
       <Link className="Link" to="NorthAmerica">
       NorthAmerica
+      </Link>
+      <Link className="Link" to="SouthAmerica">
+      SouthAmerica
       </Link>
     </div>
   );
